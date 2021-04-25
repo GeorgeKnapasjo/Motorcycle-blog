@@ -1,19 +1,15 @@
 import React from 'react';
+import { BlogContainer, BlogWrapper, SearchBar } from './Blogs.styled';
 
 const Blogs = () => {
     return (
-        <div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            deez nuts 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
-        </div>
+        <BlogWrapper>
+            <BlogContainer>
+                <SearchBar>
+                    
+                </SearchBar>
+            </BlogContainer>
+        </BlogWrapper>
     )
 }
 
