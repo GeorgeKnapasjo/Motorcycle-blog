@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Blogs from '../../pages/Blogs/Blogs';
 import { NavbarWrapper, NavbarContainer } from './Navbar.styled';
-import {BrowserRouter as Router } from 'react-router-dom';
 
 const Navbar = () => {
     return (<>
@@ -10,11 +8,9 @@ const Navbar = () => {
             Untrained mechanic
         </NavbarWrapper>
         <NavbarContainer>
-            <Router>
             <Link to='/Blogs'>Blog posts</Link>
             <Link to='/'>Contact us</Link>
             <a>Shop</a>
-            </Router>
         </NavbarContainer>
         </>
 )

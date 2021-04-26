@@ -9,9 +9,6 @@ export const RecentBlogWrapper = styled.div`
     flex-wrap:wrap;
     margin:auto;
 `;
-export const Flex = styled.div`
-    display:flex;
-`;
 
 export const StyledTitle = styled.h1`
     margin:2rem auto 1rem auto;
