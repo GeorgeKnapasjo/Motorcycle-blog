@@ -1,1 +1,1 @@
-rootProject.name = "BlogDatabase"
+rootProject.name = "Motorcycle_blog_backend"

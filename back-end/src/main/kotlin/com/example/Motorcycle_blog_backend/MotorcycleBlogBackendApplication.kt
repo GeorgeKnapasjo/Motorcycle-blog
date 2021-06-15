@@ -1,11 +1,11 @@
-package com.example.BlogDatabase
+package com.example.Motorcycle_blog_backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BackEndApplication
+class MotorcycleBlogBackendApplication
 
 fun main(args: Array<String>) {
-	runApplication<BackEndApplication>(*args)
+	runApplication<MotorcycleBlogBackendApplication>(*args)
 }
