@@ -12,7 +12,7 @@ export const Blog = () => {
     },[id]);
 
     return(
-        <FullPageWrapper>
+        <FullPageWrapper isBlog={true}>
             {data && <div>
                 <h3>{data.title}</h3>
                 <div>{data.content}</div>

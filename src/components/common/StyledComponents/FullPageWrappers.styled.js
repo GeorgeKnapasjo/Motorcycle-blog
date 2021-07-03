@@ -5,7 +5,7 @@ export const PageWrapper = styled.div`
 `;
 
 export const PageContainer = styled.div`
-    width 1500px;
+    width: ${props => props.isBlog ? "1200px" : "1500px"};
     margin:auto;
 `;
 
