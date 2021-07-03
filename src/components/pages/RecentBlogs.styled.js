@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import Blogpost from './common/Blogpost/BlogpostSmall';
+import Blogpost from '../common/Blogpost/BlogpostSmall';
 
 export const RecentBlogWrapper = styled.div`
     display:flex;

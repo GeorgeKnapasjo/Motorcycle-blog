@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { blogApi, getRequest } from './common/ApiCalls/blogApi';
-import BlogpostWide from './common/Blogpost/BlogpostWide';
-import { PageWrapper } from './common/StyledComponents/FullPageWrappers.styled';
+import { blogApi, getRequest } from '../common/ApiCalls/blogApi';
+import BlogpostWide from '../common/Blogpost/BlogpostWide';
+import { PageWrapper } from '../common/StyledComponents/FullPageWrappers.styled';
 import { TestContainer } from './Popular.styled';
 
 

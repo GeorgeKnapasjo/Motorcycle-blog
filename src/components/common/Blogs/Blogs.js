@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import BlogpostSmall from '../../common/Blogpost/BlogpostSmall';
+import BlogpostSmall from '../Blogpost/BlogpostSmall';
 import BlogBanner from './BlogBanner';
 
 

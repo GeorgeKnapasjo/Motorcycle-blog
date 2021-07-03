@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageContainer, PageWrapper } from '../../common/StyledComponents/FullPageWrappers.styled';
+import { PageContainer, PageWrapper } from '../StyledComponents/FullPageWrappers.styled';
 import { SearchBar, SearchContainer, SortByContainer } from './BlogBanner.styled';
 
 const Blogs = () => {
