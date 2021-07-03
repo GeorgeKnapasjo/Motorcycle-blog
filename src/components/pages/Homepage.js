@@ -3,7 +3,7 @@ import Banner from '../common/Banner/Banner';
 import RecentBlogs from './RecentBlogs';
 import About from './About';
 import Popular from './Popular';
-import {withRouter} from 'react-router-dom'
+
 
 const Homepage = () => {
     return(<>

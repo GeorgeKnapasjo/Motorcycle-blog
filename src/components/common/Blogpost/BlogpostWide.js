@@ -1,8 +1,9 @@
 import React from 'react';
 import Test2 from '../../../images/Test2.jpg'
 import { BlogPostContainer } from './BlogpostWide.styled';
+import {Link} from 'react-router-dom';
 
-const BlogpostWide = ({ imageSource = Test2, title = "cornering tips?", description, left, right }) => {
+const BlogpostWide = ({ imageSource = Test2, title = "cornering tips?", description, right = false, id }) => {
     return (
         <BlogPostContainer style={{justifyContent: right ? 'flex-end' : 'flex-start'}}>
             {right ? <>
@@ -11,6 +12,7 @@ const BlogpostWide = ({ imageSource = Test2, title = "cornering tips?", descript
                     {description && <p>
                         {description}
                     </p>}
+                    <Link to={`/Blogpost/${id}`}>click to visit</Link>
                 </span>
                 <img alt={title} src={imageSource}   />
             </> : <>
@@ -20,6 +22,7 @@ const BlogpostWide = ({ imageSource = Test2, title = "cornering tips?", descript
                         {description && <p>
                             {description}
                         </p>}
+                    <Link to={`/Blogpost/${id}`}>click to visit</Link>
                     </span>
 
                 </>}

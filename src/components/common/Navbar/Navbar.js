@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavbarContainer>
             <Link to='/Blogs'>Blog posts</Link>
             <Link to='/'>Contact us</Link>
-            <a>Shop</a>
+            {/* <a>Shop</a> */}
         </NavbarContainer>
         </>
 )
