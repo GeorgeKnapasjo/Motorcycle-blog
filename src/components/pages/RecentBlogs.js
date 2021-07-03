@@ -2,7 +2,7 @@ import React from 'react';
 import BlogpostSmall from '../common/Blogpost/BlogpostSmall';
 import BlogpostWide from '../common/Blogpost/BlogpostWide';
 import { RecentBlogWrapper, StyledTitle } from './RecentBlogs.styled';
-import Test3 from '../images/Test3.jpg'
+import Test3 from '../../images/Test3.jpg'
 import { PageWrapper } from '../common/StyledComponents/FullPageWrappers.styled';
 
 const RecentBlogs = () => {

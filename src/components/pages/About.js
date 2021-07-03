@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutContainer, AboutWrapper } from './About.styled';
-import Test3 from '../images/Test3.jpg'
+import Test3 from '../../images/Test3.jpg'
 const About = () => {
     return(
         <AboutWrapper>

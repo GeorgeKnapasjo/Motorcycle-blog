@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/common/Navbar/Navbar';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
-import Blogs from './components/pages/Blogs/Blogs';
+import Blogs from './components/common/Blogs/Blogs';
 import Homepage from './components/pages/Homepage';
 
 const App = () => {
